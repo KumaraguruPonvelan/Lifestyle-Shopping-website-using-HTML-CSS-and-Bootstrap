@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+}
+
+h6 {
+    color: #121212;
+
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+hr {
+    width: 40px;
+    height: 2px;
+
+}
+
+.star {
+    padding: 10px 0;
+}
+
+.star i {
+    font-size: 1rem;
+    color: goldenrod;
+}
+
+.navbar {
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: rgb(125, 3, 239);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link .active .navbar i.active {
+    color: coral;
+}
+
+.navbar i {
+    font-size: 1.2rem;
+    padding: 0 30px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: blue;
+}
+
+#home {
+
+
+
+
+    background-image: url(./Assets/wallpaperflare.com_wallpaper\ \(17\).jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.row {
+    margin: 0;
+    padding: 30px;
+}
+
+
+
+
+
+#home span {
+    color: blueviolet;
+}
+
+#New .one img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+#New .one .Details {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+#New .one:hover .Details {
+    cursor: pointer;
+    background-color: rgba(227, 194, 223, 0.7);
+}
+
+#New .one:hover .Details button {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 3px;
+    transform: translateY(70px);
+    transition: 0.3s ease;
+}
+
+#New .one:hover .Details button:hover {
+    color: white;
+    border-bottom: ;
+}
+
+#New .one:nth-child(1) .Details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+
+
+}
+
+#New .one:nth-child(2) .Details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+#New .one:nth-child(3) .Details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+
+
+}
+
+.containers {
+    text-align: center;
+    justify-content: center;
+}
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+
+}
+
+.product img {
+    transition: 0.3s all;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.product .buy-btn {
+    background-color: burlywood;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn {
+
+    transform: translateY(0);
+    opacity: 1;
+
+}
+
+#banner {
+    background-image: url(./Assets/2.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#banner h4 {
+    color: white;
+}
+
+#banner h1 {
+    color: beige;
+}
+
+#banner button {
+    background: #121212;
+}
+
+footer {
+    background-color: #2a2a2a;
+}
+
+footer h5 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+footer li {
+    padding-bottom: 4px;
+}
+
+footer li a:hover {
+    font-size: 0.8rem;
+    color: rgb(151, 150, 150);
+
+}
+
+footer p {
+    color: white;
+    font-size: 0.8rem;
+
+}
+
+footer .copyright a {
+    color: white;
+    width: 38px;
+    height: 38px;
+    background-color: gray;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
